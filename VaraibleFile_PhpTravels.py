@@ -54,9 +54,19 @@ OR={
 'LastName_Text':"//input[@placeholder='Last Name']",
 'Mobile_Number_Text':"//input[@placeholder='Mobile Number']",
 'Email_Text':"//input[@placeholder='Email']",
-'Password_Text':"//input[@placeholder='Email']",
+'Password_Text':"//input[@placeholder='Password']",
 'Confirm_Password_Text':"//input[@placeholder='Confirm Password']",
+'Got_It_Label_Button':"//button[@class='cc-btn cc-dismiss']",
 'Sign_Up_Button':"//button[@class='signupbtn btn_full btn btn-success btn-block btn-lg']",
+'User_Dropdown_Account_Page':"//div[@class='dropdown dropdown-login dropdown-tab']//a[@id='dropdownCurrency']",
+'Account_Link':"//a[@class='dropdown-item active tr']",
+'Logout_Link':"//a[@class='dropdown-item tr']",
+'Bookings_Tab_Account_Page':"//a[contains(text(),'Bookings')]",
+'My_Profile_Tab_Account_Page':"//a[contains(text(),'My Profile')]",
+'Whishlist_Tab_Account_Page':"//a[contains(text(),'Wishlist')]",
+'News_Letter_Tab_Account_Page':"//a[@class='go-text-right nav-link active']",
+'NewsLetter_Subscribe_Button':"//span[@class='slider round']",
+
 'Login_Username_Text':"//input[@placeholder='Email']",
 'Login_Password_Text':"//input[@placeholder='Password']",
 'Login_RememeberMe_Checkbox':"//label[@class='custom-control-label']",
@@ -65,5 +75,6 @@ OR={
 'Login_page_ForgetPassword_Button':"//a[@class='btn btn-warning br25 btn-block']",
 'Forget_Password_Email_Text':"//input[@id='resetemail']",
 'Forget_Password_Reset_Button':"//button[@class='btn btn-primary resetbtn']"
+
     
 }
